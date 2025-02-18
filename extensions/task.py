@@ -63,50 +63,38 @@
 #check - შემოწმება
 #division - განაყოფი
 
-#html
-
-#Frontend - საიტის ვიზუალური მხარე, რასთანაც შეხება აქვს მომხმარებელს
-#Backend - საიტის ფუნქციონალური მხარე რომელსაც ჩვენ ვერ ვხედავთ
-
-#HTML- საიტის სტრუქტურა
-#CSS - საიტის სტილი
-#JavaScript - ფუნქციონალი
-
-
-
-#HTML - HyperText Markup language
-#Markup Symbols - <>
-
-#Interactivity - მოძრავი
-
-#angle brackets - კუთხური ბრჩხილები (<>)
-#button - ღილაკი
-#content - შიგთავსი
-#slash - დახრილი ხაზი (/)
-#web - ქსელი
-#page - გვერდი
+#survey - გამოკითხვა
+#correct - სწორი
 #convert - გადაყვანა
-#translate - გადათარგმნა
-#user - მომხმარებელი
-#run - გაშვება
+#explicit - ხელონვური
+#implicit - ბუნებრივი
+#multiple - მრავალი
+#comparsion - შედარება
+#true - ჭეშმარიტი
+#false - მცდარი
+#switch - გადამრთველი
 
-#Header - სათაური
-#Search engine - საძიებო ძრავა
-#Request - მოთხოვნა
-#Level - დონე
-#Important - მნიშვნელოვანი
-#Attribute - ატრიბუტი, გვაწდვის დამეტებით ინფრომაციას საგნის შესახებ
-#Source - წყარო
-#Empty - ცარიელი
+#comparsion - შედარება
+#arithmetic operator - არითმეტიკული ოპერატორი
+#comparsion operator - შედარების ოპერატორი
+#logical operator - ლოგიკური ოპერატორი
+#and - და
+#or - ან
+#result - შედეგი
+#circut - წრედი
+#switch - გადართვა/გადამრთველი
+#binary - ორობითი
+#thing - საგანი
+#digital - ციფრული
+#boolean - მონაცემთა ტიპი 2 შესაძლო მნიშვნელობით: True, False
+#unit - საზომი ერთეული
+#trigger - გაღიზიანება, გამოწვევა
+#combination - ვარიანტი
 
-#temporarily - დროებით
-#disable - გამორთვა
-#organize - მოწესრიგება, დალაგება
-#explain - ახსნა, განმარტება
-#white space - 1-ზე მეტი space
-#line break - ხაზის გაწყვეტა
-#head - თავი
-#body - ტანი
-#content - შიგთავსი
-#nesting - ჩაშენება
-
+#accurate - ზუსტი
+#detect - დადგენა
+#uppercase - დიდი ასო
+#lowercase - პატარა ასო
+#degree - გრადუსი
+#presence - ყოფნა
+#combine - გაერთიანება
