@@ -1,0 +1,76 @@
+<!--3-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA - Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 50px;
+        }
+        .form-container {
+            background: #f4f4f4;
+            padding: 20px;
+            width: 50%;
+            margin: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">ჩვენ შესახებ</a>
+        <a href="#courses">კურსები</a>
+        <a href="#register">რეგისტრაცია</a>
+    </nav>
+
+    <section id="about">
+        <h2>GOA - Game Development Academy</h2>
+        <p>GOA არის საქართველოს წამყვანი აკადემია, რომელიც გეიმ დეველოპმენტს ასწავლის.</p>
+    </section>
+
+    <section id="courses">
+        <h2>ჩვენი კურსები</h2>
+        <p>აკადემია გთავაზობთ სხვადასხვა კურსებს Unity, Unreal Engine, Game Design და სხვა ტექნოლოგიებზე.</p>
+    </section>
+
+    <section id="register">
+        <h2>რეგისტრაცია</h2>
+        <div class="form-container">
+            <form action="submit.php" method="post">
+                <label for="name">სახელი:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">ელ.ფოსტა:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="course">აირჩიეთ კურსი:</label>
+                <select id="course" name="course">
+                    <option value="unity">Unity</option>
+                    <option value="unreal">Unreal Engine</option>
+                    <option value="game-design">Game Design</option>
+                </select><br><br>
+
+                <button type="submit">რეგისტრაცია</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

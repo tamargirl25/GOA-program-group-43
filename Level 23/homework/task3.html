@@ -1,0 +1,58 @@
+<!--4-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        nav { background: rgb(209, 37, 37); padding: 10px; }
+        nav a { color: white; margin: 15px; text-decoration: none; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="register.html">Register</a>
+    </nav>
+    <h1>Register & Login</h1>
+    
+    <!-- Registration Form -->
+    <h2>რეგისტრაცია</h2>
+    <form action="register.php" method="post">
+        <label for="fullname">სრული სახელი:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="username">მომხმარებლის სახელი:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">ელ-ფოსტა:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">ტელეფონის ნომერი:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm-password">დაადასტურეთ პაროლი:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+
+    <!-- Login Form -->
+    <h2>ავტორიზაცია</h2>
+    <form action="login.php" method="post">
+        <label for="login-email">ელ-ფოსტა:</label>
+        <input type="email" id="login-email" name="login-email" required><br><br>
+
+        <label for="login-password">პაროლი:</label>
+        <input type="password" id="login-password" name="login-password" required><br><br>
+
+        <button type="submit">შესვლა</button>
+    </form>
+</body>
+</html>

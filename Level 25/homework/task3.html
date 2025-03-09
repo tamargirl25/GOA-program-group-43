@@ -1,0 +1,64 @@
+<!--4-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+
+  <h1>გთხოვთ გაიაროთ რეგისტრაცია</h1>
+  
+  <form action="#" method="POST">
+    <!-- სახელი -->
+    <label for="name">სახელი:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <!-- ემეილზე ადრესის მოთხოვნა -->
+    <label for="email">ემაილი:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <!-- პაროლი -->
+    <label for="password">პაროლი:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <!-- სქესის არჩევა -->
+    <label for="gender">გენდერი:</label>
+    <select id="gender" name="gender" required>
+      <option value="male">მამრობითი</option>
+      <option value="female">მდედრობითი</option>
+      <option value="other">სხვა</option>
+    </select><br><br>
+    
+    <!-- ასაკი -->
+    <label for="age">ასაკი:</label>
+    <select id="age" name="age" required>
+      <option value="under18">მინიმუმ 18 წელზე ნაკლები</option>
+      <option value="18-25">18-25 წელი</option>
+      <option value="26-35">26-35 წელი</option>
+      <option value="36-45">36-45 წელი</option>
+      <option value="46+">46 წელზე მეტი</option>
+    </select><br><br>
+    
+    <!-- ფერის არჩევა -->
+    <label for="color">ფერი:</label>
+    <select id="color" name="color" required>
+      <option value="red">წითელი</option>
+      <option value="blue">ლურჯი</option>
+      <option value="green">მწვანე</option>
+      <option value="yellow">ყვითელი</option>
+      <option value="orange">ნარინჯისფერი</option>
+      <option value="purple">ლავანდისფერი</option>
+      <option value="pink">ვარდისფერი</option>
+      <option value="brown">ყავისფერი</option>
+      <option value="gray">ლურჯი</option>
+      <option value="black">შავი</option>
+    </select><br><br>
+    
+    <!-- რეგისტრაციის ღილაკი -->
+    <input type="submit" value="რეგისტრაცია">
+  </form>
+
+</body>
+</html>
