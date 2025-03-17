@@ -138,3 +138,9 @@
 #increase - გაზრდა
 #decrease - შემცირება
 
+#conditional statement - პირობითი განცხადება
+#decide - გადაწყვეტა
+#if - თუ
+#else - სხვა შემთხვევაში
+#even - ლუწი
+#odd - კენტი
