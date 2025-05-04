@@ -7,7 +7,7 @@ profession = "Developer"
 hobby = "reading"
 color = "purple"
 food = "shavurma"
-sport = "football"
+sport = "volyball"
 animal = "dog"
 
 age1 = 25
